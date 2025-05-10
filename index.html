@@ -1,26 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Esta site </title>
-        
-    </head>
-    <body>
-        <h1>About my partner</h1>
-        <p>Every day I think about one person.. It's my partner. I very very very very love him!!</p>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Esta site</title>
 
-        <h2>
-            About my friends
-        </h2>
-        <p> I very like my frieds. They are very cute to me. And I appricate them! I very hope that they allways will be my friends. My friend is:</p>
-        <ul>
-            <li>scientist</li>
-            <li>fluffy</li>
-            <li>nero</li>
-            <li>vika</li>
-            <li>angel</li>
-            <li>other, who not in this list are my good acquaintances!</li>
-        </ul>
-        
-        
-    </body>
+  <style>
+    h2 {
+      background: #88ff84;
+    }
+    h1 {
+      background-color: #fecfdc;
+    }
+    h3 {
+      background-color: #f6fd8d;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .site-footer {
+      height: 100px;
+      line-height: 100px;
+      background-color: dimgray;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="site-header">
+      <div class="logo">Esta site</div>
+      <nav class="nav">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1 id="main-title">
+        About my
+        <a href="https://drive.google.com/file/d/1kP0EXCHIfGPP4QZwHh9Uvf_0HW8e4TPS/view?usp=sharing">partner</a>
+      </h1>
+      <p style="color: palevioletred;">Every day I think about one person... It's my partner. I very very very very love him!!</p>
+
+      <h2 id="main-title">
+        About my
+        <a href="https://drive.google.com/file/d/1p9tr96Vn9zQpGY6v8MiIHG9DiReestCi/view?usp=sharing">friends</a>
+      </h2>
+      <p style="color: green;">
+        I really like my friends. They are very cute to me. And I appreciate them! I very much hope they will always be my friends.
+      </p>
+      <ul>
+        <li><a href="https://drive.google.com/file/d/1hUEvBWZ_MChMWUnh5rQGOg1Q0oanySD_/view?usp=sharing">Scientist</a></li>
+        <li><a href="https://drive.google.com/file/d/13DnKn3ib_-yy2Z-YPggaqMHceF59sqN9/view?usp=sharing">Fluffy</a></li>
+        <li><a href="https://drive.google.com/file/d/1O-aClIkFvGTm9moTijKrYEqsTi3NmsRc/view?usp=sharing">Nero</a></li>
+        <li><a href="https://drive.google.com/file/d/17WRMv2XUtymbYBKBfqb28F6I2jVE5KN9/view?usp=sharing">Vika</a></li>
+        <li><a href="https://drive.google.com/file/d/1i-gdclL1jAEhtXB5R3r96jPQbnbM88YE/view?usp=sharing">Angel</a></li>
+        <li>Others, who are not on this list, are my good acquaintances!</li>
+      </ul>
+
+      <h3 id="main-title">
+        About my
+        <a href="https://drive.google.com/file/d/11hPBxp3qoBVgqGOVjPfOUQdUu6YKtV6g/view?usp=sharing">bro</a>
+      </h3>
+      <p style="color: rgb(255, 174, 0);">My dear brother and my family!!</p>
+    </main>
+
+    <footer class="footer">
+      © 2025 Esta site
+    </footer>
+  </div>
+</body>
 </html>
